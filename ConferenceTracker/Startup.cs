@@ -48,7 +48,7 @@ namespace ConferenceTracker
 
             if(env.IsDevelopment())
             {
-                logger.LogInformation("Logger is in development");
+                logger.LogInformation("Environment is in development");
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
             }
